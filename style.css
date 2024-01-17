@@ -1,6 +1,24 @@
 h1 {
-    color:blue;
+    color:rgb(255, 255, 255);
     font-family:helvetica;
     }
-    
+p {
+        color:rgb(244, 97, 29); font-family:helvetica;
+        }
+        
+h3 {
+        color:blue;font-family:'Gill Sans';
+        }
+
+h4 { color:rgb(255, 255, 255);font-family:'Gill Sans';}
+
+body {background-color: rgb(29, 198, 254);}
+
+img {border: 2px solid rgb(0, 0, 0);
+    width:50%;
+    height:50%;
+    margin-left:150px;
+    }
+
+
     
