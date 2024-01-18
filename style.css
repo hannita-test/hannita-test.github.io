@@ -6,7 +6,7 @@ p {
         color:rgb(244, 97, 29); font-family:helvetica;
         }
         
-h3 {
+h2 {
         color:blue;font-family:'Gill Sans';
         }
 
@@ -15,10 +15,14 @@ h4 { color:rgb(255, 255, 255);font-family:'Gill Sans';}
 body {background-color: rgb(29, 198, 254);}
 
 img {border: 2px solid rgb(0, 0, 0);
-    width:50%;
-    height:50%;
+    width:30%;
+    height:30%;
     margin-left:150px;
     }
+h5{color:rgb(255, 255, 255);font-family: helvetica;}
+li {color:white; 
+        font-family:helvetica;
+font-size: small;}
 
 
     
