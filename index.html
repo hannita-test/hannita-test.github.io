@@ -1,46 +1,63 @@
 <!DOCTYPE html>
-
 <html>
 
 <head>
-
-<link rel="stylesheet" href="style.css">  
-
+    <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
 
-<h1>Hannah's Website</h1>
+    <h1>Hannah's Website</h1>
 
-<p><em>Welcome to <a href= "https://theamazingworldofgumball.fandom.com/wiki/The_Amazing_World_of_Gumball_Wiki">The Amazing World of Gumball</a> webpage!</em></p>
+    <p><em>Welcome to <a href="https://theamazingworldofgumball.fandom.com/wiki/The_Amazing_World_of_Gumball_Wiki">The Amazing World of Gumball</a> webpage!</em></p>
 
-<h2>Gumball and Darwin</h2>
+    <h2>Gumball and Darwin</h2>
 
-<h4><strong>Gumball Watterson</strong></h4>
+    <h4><strong>Gumball Watterson</strong></h4>
 
-<img src="https://carboncostume.com/wordpress/wp-content/uploads/2021/06/gumball-awog-character.jpg" alt="Gumball Watterson">
+    <img src="https://carboncostume.com/wordpress/wp-content/uploads/2021/06/gumball-awog-character.jpg" alt="Gumball Watterson">
 
-<h4><strong>Darwin Watterson</strong></h4>
+    <h4><strong>Darwin Watterson</strong></h4>
 
-<img src="https://carboncostume.com/wordpress/wp-content/uploads/2022/08/darwin-theamazingworldofgumball-character.png" alt="Darwin Watterson">
+    <img src="https://carboncostume.com/wordpress/wp-content/uploads/2022/08/darwin-theamazingworldofgumball-character.png" alt="Darwin Watterson">
 
-<p>Gumball often gets himself into trouble. His best friend and adopted brother, Darwin, usually follows Gumball into trouble but sometimes he is the only one pulling Gumball back to reality. </p>
+    <p>Gumball often gets himself into trouble. His best friend and adopted brother, Darwin, usually follows Gumball into trouble but sometimes he is the only one pulling Gumball back to reality. </p>
 
-<img src="https://i.pinimg.com/564x/fe/92/f4/fe92f47010755e76e824980b6827abda.jpg" alt="Gumball and Darwin Watterson">
+    <img src="https://i.pinimg.com/564x/fe/92/f4/fe92f47010755e76e824980b6827abda.jpg" alt="Gumball and Darwin Watterson">
 
-<p>Darwin used to be the family pet before he grew legs and was adopted by the Wattersons. Gumball and Darwin are now inseparable!</p>
+    <p>Darwin used to be the family pet before he grew legs and was adopted by the Wattersons. Gumball and Darwin are now inseparable!</p>
 
-<img src="https://i.ytimg.com/vi/J4gx0X6I-sU/maxresdefault.jpg" alt="Darwin as a pet before he grew legs">
+    <img src="https://i.ytimg.com/vi/J4gx0X6I-sU/maxresdefault.jpg" alt="Darwin as a pet before he grew legs">
 
-<h5>Description</h5>
-<ul>
-    <li>I changed the title font to helvetica and changed the font color to white.</li>
-    <li>I added two more paragraphs and changed the paragraph font colors to be orange and the font to helvetica.</li>
-    <li>I added emphasis (italics) and a link to the welcome message.</li>
-    <li>I made headers for the images of Gumball and Darwin: all in the font gill sans, one blue, two white, and bolded the name headers. </li>
-    <li>I added four images with black borders, a reduced size to 30%, and shifted their margins. </li>
-    <li>I changed the background color.</li>
-  </ul>
+    <h5>Description</h5>
+    <ul>
+        <li>I changed the title font to helvetica and changed the font color to white.</li>
+        <li>I added two more paragraphs and changed the paragraph font colors to be orange and the font to helvetica.</li>
+        <li>I added emphasis (italics) and a link to the welcome message.</li>
+        <li>I made headers for the images of Gumball and Darwin: all in the font gill sans, one blue, two white, and bolded the name headers. </li>
+        <li>I added four images with black borders, a reduced size to 30%, and shifted their margins. </li>
+        <li>I changed the background color.</li>
+    </ul>
+
+    <script>
+        const apodData = {
+            "copyright": "Helge Buesing",
+            "date": "2024-02-23",
+            "explanation": "This supernova shock wave plows through interstellar space at over 500,000 kilometers per hour. Centered and moving upward in the sharply detailed color composite its thin, bright, braided filaments are actually long ripples in a cosmic sheet of glowing gas seen almost edge-on. Discovered in the 1840s by Sir John Herschel, the narrow-looking nebula is sometimes known as Herschel's Ray. Cataloged as NGC 2736, its pointed appearance suggests its modern popular name, the Pencil Nebula. The Pencil Nebula is about 800 light-years away. Nearly 5 light-years long it represents only a small part of the Vela supernova remnant though. The enormous Vela remnant itself is around 100 light-years in diameter, the expanding debris cloud of a star that was seen to explode about 11,000 years ago. Initially, the section of the shock wave seen as the Pencil nebula was moving at millions of kilometers per hour but has slowed considerably, sweeping up surrounding interstellar material.",
+            "hdurl": "https://apod.nasa.gov/apod/image/2402/NGC2736_Helge_Buesing2048.jpg",
+            "media_type": "image",
+            "service_version": "v1",
+            "title": "The Pencil Nebula Supernova Shock Wave",
+            "url": "https://apod.nasa.gov/apod/image/2402/NGC2736_Helge_Buesing1024.jpg"
+        };
+
+        // Update HTML with APOD data
+        document.getElementById('apod-image').src = apodData.url;
+        document.getElementById('apod-title').textContent = apodData.title;
+        document.getElementById('apod-date').textContent = "Date: " + apodData.date;
+        document.getElementById('apod-explanation').textContent = apodData.explanation;
+        document.getElementById('apod-copyright').textContent = "Copyright: " + apodData.copyright;
+    </script>
 
 </body>
 
